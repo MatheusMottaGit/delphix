@@ -1,0 +1,21 @@
+{
+  "name": "smk",
+  "bin": {
+    "smk": "./dist/index.js"
+  },
+  "version": "1.0.0",
+  "description": "My CLI to build services for any project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "commander": "^12.0.0"
+  }
+}

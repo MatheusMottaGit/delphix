@@ -8,8 +8,8 @@ program
   .description("say hello")
   .argument("<name>", "component name")
   .option("-c, --component", "display the component name")
-  .action(async (options) => {
-    const creator = new ComponentManager(options.name)
+  .action(async (name: string) => {
+    const creator = new ComponentManager(name)
     await creator.createComponent()
   });
 

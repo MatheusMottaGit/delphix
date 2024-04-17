@@ -10,7 +10,7 @@ export class ComponentManager {
     this.componentsFolder = path.join(__dirname, '..', 'src', 'components')
   }
 
-  public setComponentContent(filename: string): string {
+  private setComponentContent(filename: string): string {
     return `
       const ${filename} = () => {
         return (

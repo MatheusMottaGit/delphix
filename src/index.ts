@@ -7,7 +7,7 @@ const program = new Command()
 program
   .description("say hello")
   .argument("<name>", "component name")
-  .option("-c, --component", "display the component name")
+  .option("-c, make --component", "display the component name")
   .action(async (name: string) => {
     const creator = new ComponentManager(name)
     await creator.createComponent()

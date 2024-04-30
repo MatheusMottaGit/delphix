@@ -1,13 +1,17 @@
 {
-  "name": "smk",
+  "name": "delphix",
   "bin": {
     "smk": "./dist/index.js"
   },
   "version": "1.0.0",
-  "description": "My CLI to build services for any project",
+  "description": "My CLI to build elements for React projects",
   "main": "index.js",
   "scripts": {
     "dev": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatheusMottaGit/delphix.git"
   },
   "author": "",
   "license": "ISC",
